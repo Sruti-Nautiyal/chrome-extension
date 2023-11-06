@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  border: 2 px solid black;
+  border-radius: 10px;
+  gap: 4px;
+}
+
+.output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+input {
+  height: 1.5rem;
+  border-radius: 10px;
+}
+button {
+  height: 2rem;
+  width: auto;
+  text-align: center;
+  border: 2px solid rgb(36, 114, 36);
+  background: rgb(77, 237, 77);
+  font-weight: 600;
+  border-radius: 10px;
+}
